@@ -104,12 +104,12 @@ function lvlPassword() {
 function showPower(power) {
   const lvlpass = document.getElementById('lvlpass')
 
-  if (power === 0) {
-    lvlpass.innerHTML = 'Insira a sua senha'
-    lvlpass.style.color = ('#fff')
+  if (power < 10) {
+    lvlpass.innerHTML = 'Insira no mínimo 6 caracteres'
+    lvlpass.style.color = ('#bb2124')
   }
 
-  if ((power > 1) && (power < 30)) {
+  if ((power >= 10) && (power < 30)) {
 
     lvlpass.innerHTML = 'Senha muito fraca'
     lvlpass.style.color = ('#bb2124')
