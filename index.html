@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Gerador de senhas</h1>
+
+      <div class="inputs">
+        <input id="input" type="range" min="4" max="25" />
+        <label id="label" for="range"></label>
+      </div>
+      <button onclick="randomPassword()" id="btn">GERAR</button>
+
+      <div id="flag" class="flag">
+        <h2 id="password"></h2>
+      </div>
+
+      <div class="developer">
+        <h5>
+          Desenvolvido por
+          <a target="_blank" href="https://matheusaltrao.github.io/portfolio/">
+            Matheus Altrão</a
+          >
+        </h5>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

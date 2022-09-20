@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  color: #fff;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputs {
+  width: 300px;
+}
+
+input {
+  width: 260px;
+}
+
+label {
+  font-size: 20px;
+}
+
+button {
+  margin: 3rem;
+  padding: 1rem 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background-color: #1a1a1a;
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.flag {
+  height: 100px;
+  width: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+
+  margin-bottom: 2rem;
+}
+
+.flag #password {
+  letter-spacing: 2px;
+}
+
+h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #7fa3e0;
+  text-decoration: none;
+  display: block;
+  margin-left: 5px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: translateY(-8px);
+}
