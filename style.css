@@ -162,3 +162,22 @@ a {
 a:hover {
   transform: translateY(-8px);
 }
+
+main{
+  animation: fromLeft 1s ease backwards;
+  animation-delay:1s ease ;
+}
+
+
+@keyframes fromLeft{
+
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
